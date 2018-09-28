@@ -6,7 +6,7 @@
 </div>
 修改 dopamine/agents/dqn/configs/dqn.gin
 
-...
+```
 # 变更前
 #Runner.num_iterations = 200
 #Runner.training_steps = 250000  # agent steps
@@ -18,7 +18,8 @@ Runner.num_iterations = 20
 Runner.training_steps = 2500  # agent steps
 Runner.evaluation_steps = 1250  # agent steps
 Runner.max_steps_per_episode = 270  # agent steps
-...
+```
+
 这样操作简化了，gtx1060只需要大概10分钟甚至更少，注意是否使用 -um 参数
 
 python dopamine/atari/train.py   --agent_name=dqn   --base_dir=/tmp/dopamine   --gin_files='dopamine/agents/dqn/configs/dqn.gin'
