@@ -1,7 +1,9 @@
 # dopamine chinese
 
 ## 学习过程补充
-
+<div align="center">
+  <img src="https://raw.githubusercontent.com/BTETON/dopamine/BTETON-dev/Screenshot_2018-09-28%20TensorBoard.png"><br><br>
+</div>
 修改 dopamine/agents/dqn/configs/dqn.gin
 
 ...
