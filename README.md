@@ -1,5 +1,5 @@
 # Dopamine
-
+[中文开发说明](dev_cn.md)
 <div align="center">
   <img src="https://google.github.io/dopamine/images/dopamine_logo.png"><br><br>
 </div>
